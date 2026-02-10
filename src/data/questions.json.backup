@@ -1,0 +1,1095 @@
+[
+  {
+    "id": "q1",
+    "text": "게임을 할 때 안정성을 얼마나 중요하게 생각하시나요?",
+    "answers": [
+      {
+        "id": "q1a1",
+        "text": "매우 안정적으로 플레이하고 싶다",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": 6
+          },
+          {
+            "axis": "ceiling",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "q1a2",
+        "text": "어느 정도 안정성이 필요하다",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q1a3",
+        "text": "보통이다",
+        "effects": []
+      },
+      {
+        "id": "q1a4",
+        "text": "불안정해도 괜찮다",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": -4
+          },
+          {
+            "axis": "ceiling",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q1a5",
+        "text": "극단적으로 불안정해도 상관없다",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": -6
+          },
+          {
+            "axis": "ceiling",
+            "value": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "text": "덱의 난이도는 어느 정도를 선호하시나요?",
+    "answers": [
+      {
+        "id": "q2a1",
+        "text": "쉽고 단순한 덱",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": -6
+          },
+          {
+            "axis": "stability",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q2a2",
+        "text": "조금 배울 게 있어도 괜찮다",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "q2a3",
+        "text": "보통 난이도",
+        "effects": []
+      },
+      {
+        "id": "q2a4",
+        "text": "복잡하고 어려운 덱을 좋아한다",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": 4
+          },
+          {
+            "axis": "ceiling",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q2a5",
+        "text": "최고 난이도 도전",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": 6
+          },
+          {
+            "axis": "ceiling",
+            "value": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "text": "한 턴의 폭발력(고점)은 얼마나 중요한가요?",
+    "answers": [
+      {
+        "id": "q3a1",
+        "text": "한 방에 끝내고 싶다",
+        "effects": [
+          {
+            "axis": "ceiling",
+            "value": 6
+          },
+          {
+            "axis": "stability",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "q3a2",
+        "text": "높은 폭발력을 원한다",
+        "effects": [
+          {
+            "axis": "ceiling",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q3a3",
+        "text": "적당한 화력이면 된다",
+        "effects": []
+      },
+      {
+        "id": "q3a4",
+        "text": "꾸준히 압박하는 스타일",
+        "effects": [
+          {
+            "axis": "ceiling",
+            "value": -2
+          },
+          {
+            "axis": "stability",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q3a5",
+        "text": "화력보다 안정성",
+        "effects": [
+          {
+            "axis": "ceiling",
+            "value": -4
+          },
+          {
+            "axis": "stability",
+            "value": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "text": "게임 템포(전개 속도)는 어떤 것을 선호하시나요?",
+    "answers": [
+      {
+        "id": "q4a1",
+        "text": "초고속 전개",
+        "effects": [
+          {
+            "axis": "tempo",
+            "value": 6
+          },
+          {
+            "axis": "stability",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "q4a2",
+        "text": "빠른 전개가 좋다",
+        "effects": [
+          {
+            "axis": "tempo",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q4a3",
+        "text": "적당한 속도",
+        "effects": []
+      },
+      {
+        "id": "q4a4",
+        "text": "천천히 준비하며 플레이",
+        "effects": [
+          {
+            "axis": "tempo",
+            "value": -4
+          },
+          {
+            "axis": "stability",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q4a5",
+        "text": "느긋한 장기전",
+        "effects": [
+          {
+            "axis": "tempo",
+            "value": -6
+          },
+          {
+            "axis": "interaction",
+            "value": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "text": "메타 덱과 비메타 덱 중 어느 쪽을 선호하시나요?",
+    "answers": [
+      {
+        "id": "q5a1",
+        "text": "무조건 메타 덱",
+        "effects": [
+          {
+            "axis": "niche",
+            "value": -6
+          },
+          {
+            "axis": "power",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q5a2",
+        "text": "메타 덱 선호",
+        "effects": [
+          {
+            "axis": "niche",
+            "value": -4
+          },
+          {
+            "axis": "power",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q5a3",
+        "text": "상관없다",
+        "effects": []
+      },
+      {
+        "id": "q5a4",
+        "text": "비메타도 재미있다",
+        "effects": [
+          {
+            "axis": "niche",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q5a5",
+        "text": "남들 안 쓰는 덱 연구",
+        "effects": [
+          {
+            "axis": "niche",
+            "value": 6
+          },
+          {
+            "axis": "difficulty",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "text": "상대방과의 상호작용(견제/방해)은 얼마나 중요한가요?",
+    "answers": [
+      {
+        "id": "q6a1",
+        "text": "내 할 일만 한다",
+        "effects": [
+          {
+            "axis": "interaction",
+            "value": -6
+          },
+          {
+            "axis": "tempo",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q6a2",
+        "text": "최소한의 견제만",
+        "effects": [
+          {
+            "axis": "interaction",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "q6a3",
+        "text": "적당히 견제한다",
+        "effects": []
+      },
+      {
+        "id": "q6a4",
+        "text": "적극적으로 방해한다",
+        "effects": [
+          {
+            "axis": "interaction",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q6a5",
+        "text": "상대 플레이 완전 봉쇄",
+        "effects": [
+          {
+            "axis": "interaction",
+            "value": 6
+          },
+          {
+            "axis": "tempo",
+            "value": -2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q7",
+    "text": "덱의 파워(티어)는 얼마나 중요한가요?",
+    "answers": [
+      {
+        "id": "q7a1",
+        "text": "최강 티어만",
+        "effects": [
+          {
+            "axis": "power",
+            "value": 6
+          },
+          {
+            "axis": "niche",
+            "value": -4
+          }
+        ]
+      },
+      {
+        "id": "q7a2",
+        "text": "상위 티어 선호",
+        "effects": [
+          {
+            "axis": "power",
+            "value": 4
+          },
+          {
+            "axis": "niche",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "q7a3",
+        "text": "중위 티어면 된다",
+        "effects": []
+      },
+      {
+        "id": "q7a4",
+        "text": "하위 티어도 괜찮다",
+        "effects": [
+          {
+            "axis": "power",
+            "value": -4
+          },
+          {
+            "axis": "niche",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q7a5",
+        "text": "티어는 중요하지 않다",
+        "effects": [
+          {
+            "axis": "power",
+            "value": -6
+          },
+          {
+            "axis": "niche",
+            "value": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q8",
+    "text": "어떤 소환 방식을 선호하시나요?",
+    "answers": [
+      {
+        "id": "q8a1",
+        "text": "싱크로 소환",
+        "effects": [
+          {
+            "axis": "tags",
+            "value": 6
+          }
+        ]
+      },
+      {
+        "id": "q8a2",
+        "text": "엑시즈 소환",
+        "effects": [
+          {
+            "axis": "tags",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q8a3",
+        "text": "융합 소환",
+        "effects": [
+          {
+            "axis": "tags",
+            "value": 6
+          }
+        ]
+      },
+      {
+        "id": "q8a4",
+        "text": "메인 덱 위주",
+        "effects": [
+          {
+            "axis": "tags",
+            "value": -4
+          }
+        ]
+      },
+      {
+        "id": "q8a5",
+        "text": "상관없다",
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "q9",
+    "text": "콤보 전개와 비트다운 중 어느 쪽을 선호하시나요?",
+    "answers": [
+      {
+        "id": "q9a1",
+        "text": "긴 콤보 전개",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": 4
+          },
+          {
+            "axis": "ceiling",
+            "value": 4
+          },
+          {
+            "axis": "tempo",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "q9a2",
+        "text": "짧은 콤보",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": 2
+          },
+          {
+            "axis": "ceiling",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q9a3",
+        "text": "적당히",
+        "effects": []
+      },
+      {
+        "id": "q9a4",
+        "text": "단순 비트다운",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": -4
+          },
+          {
+            "axis": "stability",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q9a5",
+        "text": "콤보 싫어함",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": -6
+          },
+          {
+            "axis": "stability",
+            "value": 6
+          },
+          {
+            "axis": "ceiling",
+            "value": -4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "text": "사고(초반 패가 안 좋은 상황) 확률은 어느 정도까지 감수하시나요?",
+    "answers": [
+      {
+        "id": "q10a1",
+        "text": "사고 절대 안 됨",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": 6
+          },
+          {
+            "axis": "ceiling",
+            "value": -4
+          }
+        ]
+      },
+      {
+        "id": "q10a2",
+        "text": "사고 적게",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": 4
+          },
+          {
+            "axis": "ceiling",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "q10a3",
+        "text": "어느 정도 감수",
+        "effects": []
+      },
+      {
+        "id": "q10a4",
+        "text": "사고 확률 높아도 OK",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": -4
+          },
+          {
+            "axis": "ceiling",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q10a5",
+        "text": "도박성이 재미",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": -6
+          },
+          {
+            "axis": "ceiling",
+            "value": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "text": "전개 루트 암기에 대해 어떻게 생각하시나요?",
+    "answers": [
+      {
+        "id": "q11a1",
+        "text": "루트 외우기 싫음",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": -6
+          },
+          {
+            "axis": "stability",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q11a2",
+        "text": "간단한 루트만",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": -4
+          }
+        ]
+      },
+      {
+        "id": "q11a3",
+        "text": "몇 개 정도는 괜찮다",
+        "effects": []
+      },
+      {
+        "id": "q11a4",
+        "text": "복잡한 루트 좋아함",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": 4
+          },
+          {
+            "axis": "ceiling",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q11a5",
+        "text": "루트 암기가 재미",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": 6
+          },
+          {
+            "axis": "ceiling",
+            "value": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "text": "당신의 플레이 스타일은?",
+    "answers": [
+      {
+        "id": "q12a1",
+        "text": "초공격형",
+        "effects": [
+          {
+            "axis": "tempo",
+            "value": 4
+          },
+          {
+            "axis": "ceiling",
+            "value": 4
+          },
+          {
+            "axis": "stability",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "q12a2",
+        "text": "공격적",
+        "effects": [
+          {
+            "axis": "tempo",
+            "value": 2
+          },
+          {
+            "axis": "power",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q12a3",
+        "text": "균형형",
+        "effects": []
+      },
+      {
+        "id": "q12a4",
+        "text": "방어적",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": 2
+          },
+          {
+            "axis": "interaction",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q12a5",
+        "text": "초방어형",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": 4
+          },
+          {
+            "axis": "interaction",
+            "value": 4
+          },
+          {
+            "axis": "tempo",
+            "value": -2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "text": "덱 구성은 어떤 스타일을 선호하시나요?",
+    "answers": [
+      {
+        "id": "q13a1",
+        "text": "핵심 카드 소수 집중",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q13a2",
+        "text": "분산형 구성",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": -2
+          },
+          {
+            "axis": "ceiling",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q13a3",
+        "text": "혼합형",
+        "effects": []
+      },
+      {
+        "id": "q13a4",
+        "text": "콤보 위주",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": 2
+          },
+          {
+            "axis": "ceiling",
+            "value": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "text": "선호하는 승리 방식은?",
+    "answers": [
+      {
+        "id": "q14a1",
+        "text": "원턴킬",
+        "effects": [
+          {
+            "axis": "ceiling",
+            "value": 6
+          },
+          {
+            "axis": "tempo",
+            "value": 4
+          },
+          {
+            "axis": "stability",
+            "value": -4
+          }
+        ]
+      },
+      {
+        "id": "q14a2",
+        "text": "빠른 마무리",
+        "effects": [
+          {
+            "axis": "ceiling",
+            "value": 4
+          },
+          {
+            "axis": "tempo",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q14a3",
+        "text": "안정적 마무리",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q14a4",
+        "text": "장기전",
+        "effects": [
+          {
+            "axis": "interaction",
+            "value": 4
+          },
+          {
+            "axis": "tempo",
+            "value": -2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "text": "핸드 관리는 어떻게 하시나요?",
+    "answers": [
+      {
+        "id": "q15a1",
+        "text": "항상 많은 핸드",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q15a2",
+        "text": "적당한 핸드",
+        "effects": []
+      },
+      {
+        "id": "q15a3",
+        "text": "핸드 적어도 괜찮다",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": -2
+          },
+          {
+            "axis": "ceiling",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q15a4",
+        "text": "핸드리스 플레이",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": -6
+          },
+          {
+            "axis": "ceiling",
+            "value": 4
+          },
+          {
+            "axis": "difficulty",
+            "value": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "text": "새로운 덱을 배울 때?",
+    "answers": [
+      {
+        "id": "q16a1",
+        "text": "배우기 쉬워야 함",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": -6
+          }
+        ]
+      },
+      {
+        "id": "q16a2",
+        "text": "조금 배울 게 있어도 OK",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "id": "q16a3",
+        "text": "보통",
+        "effects": []
+      },
+      {
+        "id": "q16a4",
+        "text": "배우는 게 많아도 좋다",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q16a5",
+        "text": "마스터하는 재미",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": 6
+          },
+          {
+            "axis": "niche",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "text": "필드 장악력은?",
+    "answers": [
+      {
+        "id": "q17a1",
+        "text": "압도적 필드 장악",
+        "effects": [
+          {
+            "axis": "ceiling",
+            "value": 4
+          },
+          {
+            "axis": "interaction",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q17a2",
+        "text": "적당한 장악",
+        "effects": [
+          {
+            "axis": "interaction",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q17a3",
+        "text": "보통",
+        "effects": []
+      },
+      {
+        "id": "q17a4",
+        "text": "최소한의 필드",
+        "effects": [
+          {
+            "axis": "tempo",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "text": "덱 연구 성향은?",
+    "answers": [
+      {
+        "id": "q18a1",
+        "text": "정석 플레이만",
+        "effects": [
+          {
+            "axis": "niche",
+            "value": -4
+          },
+          {
+            "axis": "power",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q18a2",
+        "text": "약간의 변형",
+        "effects": []
+      },
+      {
+        "id": "q18a3",
+        "text": "독자적 연구",
+        "effects": [
+          {
+            "axis": "niche",
+            "value": 4
+          },
+          {
+            "axis": "difficulty",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q18a4",
+        "text": "실험적 덱 구성",
+        "effects": [
+          {
+            "axis": "niche",
+            "value": 6
+          },
+          {
+            "axis": "difficulty",
+            "value": 4
+          },
+          {
+            "axis": "power",
+            "value": -2
+          }
+        ]
+      }
+    ]
+  }
+]

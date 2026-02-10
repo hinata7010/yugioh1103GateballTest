@@ -1,0 +1,21 @@
+{
+  "weights": {
+    "stability": 1.0,
+    "difficulty": 1.0,
+    "ceiling": 1.0,
+    "tempo": 1.0,
+    "niche": 1.0,
+    "interaction": 1.0,
+    "power": 1.0
+  },
+  "axisDescriptions": {
+    "stability": "저점이 높고 게임이 잘 안 무너짐 (1~10)",
+    "difficulty": "루트 암기, 선택지 판단 요구 (1~10)",
+    "ceiling": "한 턴 혹은 한 패의 최대 파괴력 (1~10)",
+    "tempo": "전개 속도 / 게임 진행 속도 (1~10)",
+    "niche": "메타 외 덱, 연구 성향 (1~10)",
+    "interaction": "견제, 방해, 대응 수단 (1~10)",
+    "power": "순수 덱 강함 (티어 체감) (1~10)"
+  },
+  "deckTags": ["싱크로", "엑시즈", "융합", "의식", "펜듈럼"]
+}
