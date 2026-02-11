@@ -41,7 +41,7 @@ export function decodeScores(encoded: string): AxisScores | null {
 
     for (let i = 0; i < 7; i++) {
       const axis = axes[i] as keyof AxisScores;
-      const hex = encoded.substr(i * 2, 2);
+      const hex = encoded.substring(i * 2, i * 2 + 2);
       const parsed = parseInt(hex, 16);
       const value = parsed / 10;
 
