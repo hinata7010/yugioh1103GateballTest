@@ -859,59 +859,6 @@
     ]
   },
   {
-    "id": "q15",
-    "text": "핸드 관리는 어떻게 하시나요?",
-    "answers": [
-      {
-        "id": "q15a1",
-        "text": "항상 많은 핸드",
-        "effects": [
-          {
-            "axis": "stability",
-            "value": 4
-          }
-        ]
-      },
-      {
-        "id": "q15a2",
-        "text": "적당한 핸드",
-        "effects": []
-      },
-      {
-        "id": "q15a3",
-        "text": "핸드 적어도 괜찮다",
-        "effects": [
-          {
-            "axis": "stability",
-            "value": -2
-          },
-          {
-            "axis": "ceiling",
-            "value": 2
-          }
-        ]
-      },
-      {
-        "id": "q15a4",
-        "text": "핸드리스 플레이",
-        "effects": [
-          {
-            "axis": "stability",
-            "value": -6
-          },
-          {
-            "axis": "ceiling",
-            "value": 4
-          },
-          {
-            "axis": "difficulty",
-            "value": 4
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "q16",
     "text": "새로운 덱을 배울 때?",
     "answers": [
