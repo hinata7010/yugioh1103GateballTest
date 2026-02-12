@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git pull:*)",
+      "Bash(git branch:*)",
+      "Bash(node analyze-distribution.js:*)",
+      "Bash(node:*)",
+      "Bash(ls:*)",
+      "Bash(pnpm run dev:*)",
+      "Bash(npm install:*)",
+      "Bash(pnpm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

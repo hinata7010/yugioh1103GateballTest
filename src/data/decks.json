@@ -2,7 +2,6 @@
   {
     "id": "junk-doppel",
     "name": "정크도플",
-    "description": "싱크로 소환 콤보 덱",
     "commentary": "고난이도 싱크로 콤보 덱으로 높은 고점을 자랑합니다. 루트 암기가 필요하지만 안정성도 어느 정도 갖춘 덱입니다.",
     "image": "/images/decks/junk-doppel.jpg",
     "tags": [
@@ -21,7 +20,6 @@
   {
     "id": "pure-hero",
     "name": "퓨어히어로",
-    "description": "융합 특화 히어로 덱",
     "commentary": "최상위 티어의 안정적인 융합 덱입니다. 높은 난이도와 고점을 모두 갖춘 강력한 덱입니다.",
     "image": "/images/decks/pure-hero.jpg",
     "tags": [
@@ -41,7 +39,6 @@
   {
     "id": "laval",
     "name": "라바르",
-    "description": "화염족 싱크로 덱",
     "commentary": "비주류 싱크로 덱으로 독특한 플레이가 가능합니다. 고점은 높지만 안정성이 다소 떨어집니다.",
     "image": "/images/decks/laval.jpg",
     "tags": [
@@ -60,7 +57,6 @@
   {
     "id": "infernity",
     "name": "인페르니티",
-    "description": "핸드리스 콤보 덱",
     "commentary": "핸드가 0장일 때 폭발하는 극단적인 콤보 덱입니다. 매우 불안정하지만 높은 고점을 자랑합니다.",
     "image": "/images/decks/infernity.jpg",
     "tags": [
@@ -80,7 +76,6 @@
   {
     "id": "graveyard-blackwing",
     "name": "묘지BF",
-    "description": "묘지 활용 블랙페더 덱",
     "commentary": "묘지를 활용하는 비주류 BF 덱입니다. 중간 수준의 성능을 가진 연구형 덱입니다.",
     "image": "/images/decks/graveyard-blackwing.jpg",
     "tags": [
@@ -99,7 +94,6 @@
   {
     "id": "frog-monarch",
     "name": "개구리제왕",
-    "description": "상급 몬스터 비트 덱",
     "commentary": "개구리와 제왕을 활용한 안정적인 견제 덱입니다. 높은 상호작용이 특징입니다.",
     "image": "/images/decks/frog-monarch.jpg",
     "tags": [],
@@ -116,7 +110,6 @@
   {
     "id": "agents",
     "name": "대행천사",
-    "description": "천사족 전개 덱",
     "commentary": "최상위 티어의 안정적인 덱입니다. 높은 고점과 안정성을 모두 갖춘 강력한 덱입니다.",
     "image": "/images/decks/agents.jpg",
     "tags": [
@@ -136,7 +129,6 @@
   {
     "id": "tg-gadget",
     "name": "TG가제트",
-    "description": "TG와 가젯 혼합 덱",
     "commentary": "상위 티어의 안정적인 덱입니다. 높은 견제력과 전개력을 갖추고 있습니다.",
     "image": "/images/decks/tg-gadget.jpg",
     "tags": [
@@ -156,12 +148,10 @@
   {
     "id": "worm",
     "name": "웜",
-    "description": "파충류족 엑시즈 덱",
     "commentary": "안정적인 비주류 덱입니다. 높은 견제력이 특징입니다.",
     "image": "/images/decks/worm.jpg",
     "tags": [
-      "엑시즈",
-      "융합"
+      "엑시즈"
     ],
     "scores": {
       "stability": 8,
@@ -176,7 +166,6 @@
   {
     "id": "machina-gadget",
     "name": "머시너즈가제트",
-    "description": "기계족 비트 덱",
     "commentary": "안정적인 중상위 티어 덱입니다. 높은 견제력과 어드밴티지 유지가 특징입니다.",
     "image": "/images/decks/machina-gadget.jpg",
     "tags": [],
@@ -193,7 +182,6 @@
   {
     "id": "whirlwind-blackwing",
     "name": "선풍BF",
-    "description": "블랙페더 싱크로 덱",
     "commentary": "중상위 티어의 BF 덱입니다. 안정적이고 높은 견제력을 갖추고 있습니다.",
     "image": "/images/decks/whirlwind-blackwing.jpg",
     "tags": [
@@ -212,7 +200,6 @@
   {
     "id": "dragunity",
     "name": "드래그니티",
-    "description": "드래곤족 싱크로 덱",
     "commentary": "안정적인 싱크로 덱입니다. 높은 견제력이 특징입니다.",
     "image": "/images/decks/dragunity.jpg",
     "tags": [
@@ -231,7 +218,6 @@
   {
     "id": "tg-beat",
     "name": "TG비트",
-    "description": "TG 비트다운 덱",
     "commentary": "안정적인 비트다운 덱입니다. 초보자도 다루기 쉬운 구성입니다.",
     "image": "/images/decks/tg-beat.jpg",
     "tags": [],
@@ -248,7 +234,6 @@
   {
     "id": "gravekeeper",
     "name": "묘지기",
-    "description": "메타 비트 덱",
     "commentary": "상대의 묘지 활용을 봉쇄하는 메타 덱입니다. 안정적이지만 고점은 낮습니다.",
     "image": "/images/decks/gravekeeper.jpg",
     "tags": [],
@@ -265,7 +250,6 @@
   {
     "id": "karakuri",
     "name": "자동기계",
-    "description": "카라쿠리 싱크로 덱",
     "commentary": "상위 티어의 싱크로 덱입니다. 높은 전개력과 고점을 자랑합니다.",
     "image": "/images/decks/karakuri.jpg",
     "tags": [
@@ -284,7 +268,6 @@
   {
     "id": "gear-valley",
     "name": "기어밸리",
-    "description": "고대의 기어 비트 덱",
     "commentary": "빠른 템포의 비트다운 덱입니다. 안정성은 다소 떨어지지만 속도가 빠릅니다.",
     "image": "/images/decks/gear-valley.jpg",
     "tags": [
@@ -303,7 +286,6 @@
   {
     "id": "hero-beat",
     "name": "히어로비트",
-    "description": "히어로 비트다운 덱",
     "commentary": "중상위 티어의 안정적인 비트다운 덱입니다. 빠른 템포와 높은 견제력이 특징입니다.",
     "image": "/images/decks/hero-beat.jpg",
     "tags": [
@@ -324,7 +306,6 @@
   {
     "id": "alive-gladiator",
     "name": "검투수",
-    "description": "검투수 비트 덱",
     "commentary": "안정적인 비트다운 덱입니다. 높은 견제력과 빠른 템포가 특징입니다.",
     "image": "/images/decks/alive-gladiator.jpg",
     "tags": [
@@ -344,7 +325,6 @@
   {
     "id": "dark-world",
     "name": "암흑계",
-    "description": "핸드 버리기 덱",
     "commentary": "상위 티어의 높은 고점 덱입니다. 폭발력이 뛰어나지만 견제력은 낮습니다.",
     "image": "/images/decks/dark-world.jpg",
     "tags": [],
@@ -361,7 +341,6 @@
   {
     "id": "tg-agents",
     "name": "TG대행",
-    "description": "TG와 대행천사 혼합 덱",
     "commentary": "상위 티어의 고난이도 덱입니다. 매우 높은 고점과 견제력을 갖추고 있습니다.",
     "image": "/images/decks/tg-agents.jpg",
     "tags": [
@@ -381,7 +360,6 @@
   {
     "id": "quick-junk-doppel",
     "name": "퀵정크도플",
-    "description": "퀵 싱크로 콤보 덱",
     "commentary": "최고 난이도의 싱크로 콤보 덱입니다. 최상급 고점과 빠른 템포를 자랑하지만 매우 불안정합니다.",
     "image": "/images/decks/quick-junk-doppel.jpg",
     "tags": [
@@ -400,7 +378,6 @@
   {
     "id": "six-samurai",
     "name": "여섯무사",
-    "description": "육무 전개 덱",
     "commentary": "최상위 티어의 빠른 전개 덱입니다. 높은 파워와 빠른 템포로 상대를 압도합니다.",
     "image": "/images/decks/six-samurai.jpg",
     "tags": [
@@ -420,7 +397,6 @@
   {
     "id": "rabbit-laggia",
     "name": "래빗라기어",
-    "description": "래빗 엑시즈 덱",
     "commentary": "최상위 티어의 가장 안정적인 덱입니다. 간단한 난이도와 빠른 템포로 초보자에게 추천합니다.",
     "image": "/images/decks/rabbit-laggia.jpg",
     "tags": [

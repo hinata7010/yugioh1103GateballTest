@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <Card :hover="!featured" :class="featured ? 'border-4 border-blue-500' : ''">
     <div :class="featured ? 'p-8' : 'p-6'">
       <!-- 덱 이미지 -->
@@ -26,8 +26,7 @@
         ]">
           {{ deck.name }}
         </h3>
-        <p class="text-gray-600 mb-2">{{ deck.description }}</p>
-
+        
         <!-- 태그 -->
         <div class="flex flex-wrap gap-2 mb-3">
           <span
@@ -96,3 +95,5 @@ function handleImageError() {
   imageError.value = true;
 }
 </script>
+
+

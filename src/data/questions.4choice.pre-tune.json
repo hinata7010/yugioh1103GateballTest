@@ -1,25 +1,35 @@
 [
   {
     "id": "q1",
-    "text": "상대 세트가 있는데 케어할 수단이 없는 상황, 당신의 선택은?",
+    "text": "게임을 할 때 안정성을 얼마나 중요하게 생각하시나요?",
     "answers": [
       {
         "id": "q1a1",
-        "text": "내 플레이만 한다.",
+        "text": "매우 안정적으로 플레이하고 싶다",
         "effects": [
           {
             "axis": "stability",
-            "value": -8
+            "value": 10
           },
           {
             "axis": "ceiling",
-            "value": 6
+            "value": -6
           }
         ]
       },
       {
         "id": "q1a2",
-        "text": "한 장 정도는 배제한다.",
+        "text": "어느 정도 안정성이 필요하다",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q1a4",
+        "text": "불안정해도 괜찮다",
         "effects": [
           {
             "axis": "stability",
@@ -27,21 +37,21 @@
           },
           {
             "axis": "ceiling",
-            "value": 1
+            "value": 4
           }
         ]
       },
       {
-        "id": "q1a3",
-        "text": "케어 가능할때까지 기다린다.",
+        "id": "q1a5",
+        "text": "극단적으로 불안정해도 상관없다",
         "effects": [
           {
             "axis": "stability",
-            "value": 7
+            "value": -10
           },
           {
             "axis": "ceiling",
-            "value": -7
+            "value": 10
           }
         ]
       }
@@ -57,11 +67,11 @@
         "effects": [
           {
             "axis": "difficulty",
-            "value": -5
+            "value": -6
           },
           {
             "axis": "stability",
-            "value": 1
+            "value": 2
           }
         ]
       },
@@ -81,7 +91,11 @@
         "effects": [
           {
             "axis": "difficulty",
-            "value": 3
+            "value": 4
+          },
+          {
+            "axis": "ceiling",
+            "value": 2
           }
         ]
       },
@@ -91,11 +105,11 @@
         "effects": [
           {
             "axis": "difficulty",
-            "value": 5
+            "value": 6
           },
           {
             "axis": "ceiling",
-            "value": 1
+            "value": 4
           }
         ]
       }
@@ -111,7 +125,7 @@
         "effects": [
           {
             "axis": "ceiling",
-            "value": 6
+            "value": 10
           },
           {
             "axis": "stability",
@@ -125,7 +139,7 @@
         "effects": [
           {
             "axis": "ceiling",
-            "value": 1
+            "value": 4
           }
         ]
       },
@@ -135,11 +149,11 @@
         "effects": [
           {
             "axis": "ceiling",
-            "value": -4
+            "value": -2
           },
           {
             "axis": "stability",
-            "value": 2
+            "value": 4
           }
         ]
       },
@@ -149,11 +163,11 @@
         "effects": [
           {
             "axis": "ceiling",
-            "value": -8
+            "value": -10
           },
           {
             "axis": "stability",
-            "value": 7
+            "value": 10
           }
         ]
       }
@@ -169,11 +183,11 @@
         "effects": [
           {
             "axis": "tempo",
-            "value": 8
+            "value": 10
           },
           {
             "axis": "stability",
-            "value": -3
+            "value": -2
           }
         ]
       },
@@ -183,7 +197,7 @@
         "effects": [
           {
             "axis": "tempo",
-            "value": 3
+            "value": 4
           }
         ]
       },
@@ -193,11 +207,11 @@
         "effects": [
           {
             "axis": "tempo",
-            "value": -3
+            "value": -4
           },
           {
             "axis": "stability",
-            "value": 1
+            "value": 2
           }
         ]
       },
@@ -207,11 +221,11 @@
         "effects": [
           {
             "axis": "tempo",
-            "value": -8
+            "value": -10
           },
           {
             "axis": "interaction",
-            "value": 2
+            "value": 4
           }
         ]
       }
@@ -227,11 +241,11 @@
         "effects": [
           {
             "axis": "niche",
-            "value": -6
+            "value": -10
           },
           {
             "axis": "power",
-            "value": 2
+            "value": 4
           }
         ]
       },
@@ -241,11 +255,11 @@
         "effects": [
           {
             "axis": "niche",
-            "value": -4
+            "value": -6
           },
           {
             "axis": "power",
-            "value": 1
+            "value": 2
           }
         ]
       },
@@ -255,7 +269,7 @@
         "effects": [
           {
             "axis": "niche",
-            "value": 3
+            "value": 6
           }
         ]
       },
@@ -265,7 +279,7 @@
         "effects": [
           {
             "axis": "niche",
-            "value": 5
+            "value": 10
           },
           {
             "axis": "difficulty",
@@ -299,7 +313,7 @@
         "effects": [
           {
             "axis": "interaction",
-            "value": -3
+            "value": -2
           }
         ]
       },
@@ -309,7 +323,7 @@
         "effects": [
           {
             "axis": "interaction",
-            "value": 2
+            "value": 4
           }
         ]
       },
@@ -319,7 +333,7 @@
         "effects": [
           {
             "axis": "interaction",
-            "value": 4
+            "value": 6
           },
           {
             "axis": "tempo",
@@ -339,11 +353,11 @@
         "effects": [
           {
             "axis": "power",
-            "value": 7
+            "value": 10
           },
           {
             "axis": "niche",
-            "value": -5
+            "value": -8
           }
         ]
       },
@@ -353,11 +367,11 @@
         "effects": [
           {
             "axis": "power",
-            "value": 2
+            "value": 4
           },
           {
             "axis": "niche",
-            "value": -3
+            "value": -4
           }
         ]
       },
@@ -371,7 +385,7 @@
           },
           {
             "axis": "niche",
-            "value": 1
+            "value": 4
           }
         ]
       },
@@ -385,7 +399,7 @@
           },
           {
             "axis": "niche",
-            "value": 5
+            "value": 10
           }
         ]
       }
@@ -428,11 +442,11 @@
         "effects": [
           {
             "axis": "difficulty",
-            "value": 3
+            "value": 4
           },
           {
             "axis": "ceiling",
-            "value": 1
+            "value": 4
           },
           {
             "axis": "tempo",
@@ -447,6 +461,10 @@
           {
             "axis": "difficulty",
             "value": 2
+          },
+          {
+            "axis": "ceiling",
+            "value": 2
           }
         ]
       },
@@ -456,11 +474,11 @@
         "effects": [
           {
             "axis": "difficulty",
-            "value": -3
+            "value": -4
           },
           {
             "axis": "stability",
-            "value": 2
+            "value": 4
           }
         ]
       },
@@ -470,15 +488,15 @@
         "effects": [
           {
             "axis": "difficulty",
-            "value": -5
+            "value": -6
           },
           {
             "axis": "stability",
-            "value": 4
+            "value": 6
           },
           {
             "axis": "ceiling",
-            "value": -5
+            "value": -4
           }
         ]
       }
@@ -486,73 +504,61 @@
   },
   {
     "id": "q10",
-    "text": "유리한 교환각(1:1 이상)이 보일 때, 당신의 기본 선택은?",
+    "text": "사고(초반 패가 안 좋은 상황) 확률은 어느 정도까지 감수하시나요?",
     "answers": [
       {
         "id": "q10a1",
-        "text": "확정 교환만 하고 무리하지 않는다",
+        "text": "사고 절대 안 됨",
         "effects": [
           {
             "axis": "stability",
-            "value": 5
-          },
-          {
-            "axis": "interaction",
-            "value": 2
+            "value": 10
           },
           {
             "axis": "ceiling",
-            "value": -3
+            "value": -6
           }
         ]
       },
       {
         "id": "q10a2",
-        "text": "상황이 좋으면 한 번 더 압박한다",
+        "text": "사고 적게",
         "effects": [
           {
             "axis": "stability",
-            "value": 1
+            "value": 4
           },
-          {
-            "axis": "tempo",
-            "value": 2
-          }
-        ]
-      },
-      {
-        "id": "q10a3",
-        "text": "리스크를 감수하고 큰 이득을 노린다",
-        "effects": [
           {
             "axis": "ceiling",
-            "value": 3
-          },
-          {
-            "axis": "tempo",
-            "value": 2
-          },
-          {
-            "axis": "stability",
             "value": -2
           }
         ]
       },
       {
         "id": "q10a4",
-        "text": "지금 손해가 있어도 템포를 가져온다",
+        "text": "사고 확률 높아도 OK",
         "effects": [
-          {
-            "axis": "tempo",
-            "value": 4
-          },
           {
             "axis": "stability",
             "value": -4
           },
           {
             "axis": "ceiling",
-            "value": 1
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q10a5",
+        "text": "도박성이 재미",
+        "effects": [
+          {
+            "axis": "stability",
+            "value": -10
+          },
+          {
+            "axis": "ceiling",
+            "value": 10
           }
         ]
       }
@@ -560,73 +566,57 @@
   },
   {
     "id": "q11",
-    "text": "상대 세트 마함이 있을 때, 당신의 사용 타이밍은?",
+    "text": "전개 루트 암기에 대해 어떻게 생각하시나요?",
     "answers": [
       {
         "id": "q11a1",
-        "text": "확실한 가치가 아니면 최대한 아낀다",
+        "text": "루트 외우기 싫음",
         "effects": [
           {
-            "axis": "stability",
-            "value": 3
-          },
-          {
             "axis": "difficulty",
-            "value": 1
+            "value": -6
           },
           {
-            "axis": "tempo",
-            "value": -2
+            "axis": "stability",
+            "value": 2
           }
         ]
       },
       {
         "id": "q11a2",
-        "text": "1:1 교환이면 빠르게 사용한다",
+        "text": "간단한 루트만",
         "effects": [
           {
-            "axis": "interaction",
-            "value": 2
-          },
-          {
-            "axis": "tempo",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "id": "q11a3",
-        "text": "초반부터 강하게 열어 템포를 잡는다",
-        "effects": [
-          {
-            "axis": "tempo",
-            "value": 3
-          },
-          {
-            "axis": "interaction",
-            "value": 2
-          },
-          {
-            "axis": "stability",
-            "value": -2
+            "axis": "difficulty",
+            "value": -4
           }
         ]
       },
       {
         "id": "q11a4",
-        "text": "리스크를 감수하고 라인을 밀어붙인다",
+        "text": "복잡한 루트 좋아함",
         "effects": [
           {
-            "axis": "tempo",
+            "axis": "difficulty",
             "value": 4
           },
           {
             "axis": "ceiling",
             "value": 2
+          }
+        ]
+      },
+      {
+        "id": "q11a5",
+        "text": "루트 암기가 재미",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": 6
           },
           {
-            "axis": "stability",
-            "value": -3
+            "axis": "ceiling",
+            "value": 4
           }
         ]
       }
@@ -642,15 +632,15 @@
         "effects": [
           {
             "axis": "tempo",
-            "value": 3
+            "value": 4
           },
           {
             "axis": "ceiling",
-            "value": 1
+            "value": 4
           },
           {
             "axis": "stability",
-            "value": -3
+            "value": -2
           }
         ]
       },
@@ -664,7 +654,7 @@
           },
           {
             "axis": "power",
-            "value": 1
+            "value": 2
           }
         ]
       },
@@ -674,11 +664,11 @@
         "effects": [
           {
             "axis": "stability",
-            "value": 1
+            "value": 2
           },
           {
             "axis": "interaction",
-            "value": 1
+            "value": 2
           }
         ]
       },
@@ -688,11 +678,11 @@
         "effects": [
           {
             "axis": "stability",
-            "value": 2
+            "value": 4
           },
           {
             "axis": "interaction",
-            "value": 2
+            "value": 4
           },
           {
             "axis": "tempo",
@@ -712,7 +702,7 @@
         "effects": [
           {
             "axis": "stability",
-            "value": 2
+            "value": 4
           }
         ]
       },
@@ -722,7 +712,11 @@
         "effects": [
           {
             "axis": "stability",
-            "value": -3
+            "value": -2
+          },
+          {
+            "axis": "ceiling",
+            "value": 2
           }
         ]
       },
@@ -741,7 +735,7 @@
           },
           {
             "axis": "ceiling",
-            "value": 1
+            "value": 4
           }
         ]
       }
@@ -749,43 +743,29 @@
   },
   {
     "id": "q14",
-    "text": "게임 중반, 킬각이 애매할 때 당신의 선택은?",
+    "text": "선호하는 승리 방식은?",
     "answers": [
       {
         "id": "q14a1",
-        "text": "안전하게 리소스를 정리하고 다음 턴을 본다",
+        "text": "원턴킬",
         "effects": [
           {
-            "axis": "stability",
-            "value": 4
-          },
-          {
-            "axis": "interaction",
-            "value": 1
+            "axis": "ceiling",
+            "value": 10
           },
           {
             "axis": "tempo",
-            "value": -1
+            "value": 4
+          },
+          {
+            "axis": "stability",
+            "value": -4
           }
         ]
       },
       {
         "id": "q14a2",
-        "text": "압박하면서 상대 대응을 유도한다",
-        "effects": [
-          {
-            "axis": "interaction",
-            "value": 2
-          },
-          {
-            "axis": "tempo",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "id": "q14a3",
-        "text": "다소 위험해도 킬각을 강하게 본다",
+        "text": "빠른 마무리",
         "effects": [
           {
             "axis": "ceiling",
@@ -794,28 +774,30 @@
           {
             "axis": "tempo",
             "value": 2
-          },
+          }
+        ]
+      },
+      {
+        "id": "q14a3",
+        "text": "안정적 마무리",
+        "effects": [
           {
             "axis": "stability",
-            "value": -2
+            "value": 4
           }
         ]
       },
       {
         "id": "q14a4",
-        "text": "실패 가능성이 커도 지금 끝내러 간다",
+        "text": "장기전",
         "effects": [
           {
-            "axis": "ceiling",
-            "value": 6
+            "axis": "interaction",
+            "value": -10
           },
           {
             "axis": "tempo",
-            "value": 3
-          },
-          {
-            "axis": "stability",
-            "value": -4
+            "value": -2
           }
         ]
       }
@@ -823,65 +805,49 @@
   },
   {
     "id": "q16",
-    "text": "사이드 이후 2~3게임 운영에서 가까운 스타일은?",
+    "text": "새로운 덱을 배울 때?",
     "answers": [
       {
         "id": "q16a1",
-        "text": "원래 플랜을 최대한 유지한다",
+        "text": "배우기 쉬워야 함",
         "effects": [
           {
-            "axis": "stability",
-            "value": 3
-          },
-          {
             "axis": "difficulty",
-            "value": -2
+            "value": -6
           }
         ]
       },
       {
         "id": "q16a2",
-        "text": "핵심 몇 장만 바꿔 미세 조정한다",
+        "text": "조금 배울 게 있어도 OK",
         "effects": [
           {
-            "axis": "interaction",
-            "value": 2
-          },
-          {
             "axis": "difficulty",
-            "value": -1
-          }
-        ]
-      },
-      {
-        "id": "q16a3",
-        "text": "상대 성향에 맞춰 카드군을 적극 교체한다",
-        "effects": [
-          {
-            "axis": "interaction",
-            "value": 3
-          },
-          {
-            "axis": "difficulty",
-            "value": 2
+            "value": -2
           }
         ]
       },
       {
         "id": "q16a4",
-        "text": "판마다 플랜을 크게 바꾸는 편이다",
+        "text": "배우는 게 많아도 좋다",
         "effects": [
-          {
-            "axis": "niche",
-            "value": 2
-          },
           {
             "axis": "difficulty",
             "value": 4
+          }
+        ]
+      },
+      {
+        "id": "q16a5",
+        "text": "마스터하는 재미",
+        "effects": [
+          {
+            "axis": "difficulty",
+            "value": 6
           },
           {
-            "axis": "stability",
-            "value": -2
+            "axis": "niche",
+            "value": 4
           }
         ]
       }
@@ -897,11 +863,11 @@
         "effects": [
           {
             "axis": "ceiling",
-            "value": 1
+            "value": 4
           },
           {
             "axis": "interaction",
-            "value": 2
+            "value": 4
           }
         ]
       },
@@ -911,7 +877,7 @@
         "effects": [
           {
             "axis": "interaction",
-            "value": 1
+            "value": 2
           }
         ]
       },
@@ -942,11 +908,11 @@
         "effects": [
           {
             "axis": "niche",
-            "value": -5
+            "value": -8
           },
           {
             "axis": "power",
-            "value": 1
+            "value": 2
           }
         ]
       },
@@ -961,7 +927,7 @@
         "effects": [
           {
             "axis": "niche",
-            "value": 4
+            "value": 8
           },
           {
             "axis": "difficulty",
@@ -975,15 +941,15 @@
         "effects": [
           {
             "axis": "niche",
-            "value": 5
+            "value": 10
           },
           {
             "axis": "difficulty",
-            "value": 3
+            "value": 4
           },
           {
             "axis": "power",
-            "value": -3
+            "value": -2
           }
         ]
       }

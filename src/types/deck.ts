@@ -1,4 +1,4 @@
-export interface AxisScores {
+﻿export interface AxisScores {
   stability: number;      // 안정성 (1-10)
   difficulty: number;     // 난이도 (1-10)
   ceiling: number;        // 고점 (1-10)
@@ -11,9 +11,10 @@ export interface AxisScores {
 export interface Deck {
   id: string;
   name: string;           // "퀵정크도플"
-  description: string;    // 간단한 설명
   commentary: string;     // 덱 코멘트 (결과 화면용)
   image: string;          // "/images/decks/quick-junk-doppel.jpg"
   tags: string[];         // ["싱크로", "엑시즈", "융합"]
   scores: AxisScores;
 }
+
+
