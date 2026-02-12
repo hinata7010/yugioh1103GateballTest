@@ -3,7 +3,7 @@ import { ref, computed } from 'vue';
 import type { AxisScores, MatchResult, AnswerEffect, Question } from '../types';
 import { findMatches } from '../utils/matching';
 import { normalizeScores, calculateMaxScores } from '../utils/scoring';
-import { decodeScores } from '../utils/encoding';
+import { decodeScores, decodeTags } from '../utils/encoding';
 import questionsData from '../data/questions.json';
 
 export const useQuizStore = defineStore('quiz', () => {
@@ -114,16 +114,25 @@ export const useQuizStore = defineStore('quiz', () => {
     matchResults.value = null;
   }
 
-  function loadResultsFromUrl(encodedScores: string) {
+  function loadResultsFromUrl(encodedScores: string, encodedTags?: string | string[]) {
     console.log('loadResultsFromUrl called with:', encodedScores);
     const scores = decodeScores(encodedScores);
     console.log('Decoded scores:', scores);
 
     if (scores) {
+      const tagParam =
+        typeof encodedTags === 'string'
+          ? encodedTags
+          : Array.isArray(encodedTags) && encodedTags.length > 0
+            ? (encodedTags[0] ?? '')
+            : '';
+      const tags = decodeTags(tagParam);
+      selectedTags.value = tags;
+
       userScores.value = scores;
       console.log('Set userScores to:', userScores.value);
 
-      matchResults.value = findMatches(scores);
+      matchResults.value = findMatches(scores, tags);
       console.log('Set matchResults to:', matchResults.value);
     } else {
       console.error('Failed to decode scores from:', encodedScores);

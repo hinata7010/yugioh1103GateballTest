@@ -45,6 +45,7 @@ import Button from './Button.vue';
 
 interface Props {
   userScores: AxisScores;
+  selectedTags?: string[];
 }
 
 const props = defineProps<Props>();
@@ -54,10 +55,7 @@ const copySuccess = ref(false);
 const copyError = ref(false);
 
 const shareUrl = computed(() => {
-  console.log('userScores:', props.userScores);
-  const url = generateShareUrl(props.userScores);
-  console.log('Generated URL:', url);
-  return url;
+  return generateShareUrl(props.userScores, props.selectedTags ?? []);
 });
 
 async function handleCopyUrl() {
