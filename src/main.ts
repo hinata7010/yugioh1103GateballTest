@@ -1,8 +1,11 @@
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
+import { inject } from '@vercel/analytics';
 import router from './router';
 import './style.css';
 import App from './App.vue';
+
+inject();
 
 const app = createApp(App);
 
