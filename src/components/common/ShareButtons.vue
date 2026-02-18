@@ -111,7 +111,7 @@ function handleShareOnX() {
 
   const baseShareUrl = new URL(shareUrl.value);
   const twitterTargetUrl = props.topDeckId
-    ? new URL(`/api/share/${props.topDeckId}`, window.location.origin)
+    ? new URL(`/share/${props.topDeckId}.html`, window.location.origin)
     : new URL('/results', window.location.origin);
   const score = baseShareUrl.searchParams.get('s');
   const tags = baseShareUrl.searchParams.get('t');
