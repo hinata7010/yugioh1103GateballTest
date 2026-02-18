@@ -5,15 +5,15 @@
     "answers": [
       {
         "id": "q1a1",
-        "text": "내 플레이만 한다.",
+        "text": "크게 신경쓰지 않는다.",
         "effects": [
           {
             "axis": "stability",
-            "value": -8
+            "value": -5
           },
           {
             "axis": "ceiling",
-            "value": 6
+            "value": 4
           }
         ]
       },
@@ -23,11 +23,11 @@
         "effects": [
           {
             "axis": "stability",
-            "value": -4
+            "value": -1
           },
           {
             "axis": "ceiling",
-            "value": 1
+            "value": 0
           }
         ]
       },
@@ -37,11 +37,15 @@
         "effects": [
           {
             "axis": "stability",
-            "value": 7
+            "value": 5
           },
           {
             "axis": "ceiling",
-            "value": -7
+            "value": -3
+          },
+          {
+            "axis": "tempo",
+            "value": -1
           }
         ]
       }
@@ -57,7 +61,7 @@
         "effects": [
           {
             "axis": "difficulty",
-            "value": -5
+            "value": -4
           },
           {
             "axis": "stability",
@@ -71,31 +75,17 @@
         "effects": [
           {
             "axis": "difficulty",
-            "value": -2
+            "value": -1
           }
         ]
       },
       {
-        "id": "q2a4",
+        "id": "q2a3",
         "text": "복잡하고 어려운 덱을 좋아한다",
         "effects": [
           {
             "axis": "difficulty",
             "value": 3
-          }
-        ]
-      },
-      {
-        "id": "q2a5",
-        "text": "최고 난이도 도전",
-        "effects": [
-          {
-            "axis": "difficulty",
-            "value": 5
-          },
-          {
-            "axis": "ceiling",
-            "value": 1
           }
         ]
       }
@@ -111,11 +101,11 @@
         "effects": [
           {
             "axis": "ceiling",
-            "value": 6
+            "value": 5
           },
           {
             "axis": "stability",
-            "value": -6
+            "value": -4
           }
         ]
       },
@@ -125,17 +115,17 @@
         "effects": [
           {
             "axis": "ceiling",
-            "value": 1
+            "value": 2
           }
         ]
       },
       {
-        "id": "q3a4",
+        "id": "q3a3",
         "text": "꾸준히 압박하는 스타일",
         "effects": [
           {
             "axis": "ceiling",
-            "value": -4
+            "value": -2
           },
           {
             "axis": "stability",
@@ -144,16 +134,16 @@
         ]
       },
       {
-        "id": "q3a5",
+        "id": "q3a4",
         "text": "화력보다 안정성",
         "effects": [
           {
             "axis": "ceiling",
-            "value": -8
+            "value": -5
           },
           {
             "axis": "stability",
-            "value": 7
+            "value": 4
           }
         ]
       }
@@ -161,39 +151,34 @@
   },
   {
     "id": "q4",
-    "text": "게임 템포(전개 속도)는 어떤 것을 선호하시나요?",
+    "text": "게임 템포는 어떤 것을 선호하시나요?",
     "answers": [
       {
         "id": "q4a1",
-        "text": "초고속 전개",
+        "text": "빠른 마무리",
         "effects": [
           {
             "axis": "tempo",
-            "value": 8
+            "value": 5
           },
           {
             "axis": "stability",
-            "value": -3
+            "value": -2
           }
         ]
       },
       {
         "id": "q4a2",
-        "text": "빠른 전개가 좋다",
-        "effects": [
-          {
-            "axis": "tempo",
-            "value": 3
-          }
-        ]
+        "text": "적당히",
+        "effects": []
       },
       {
-        "id": "q4a4",
+        "id": "q4a3",
         "text": "천천히 준비하며 플레이",
         "effects": [
           {
             "axis": "tempo",
-            "value": -3
+            "value": -2
           },
           {
             "axis": "stability",
@@ -202,16 +187,20 @@
         ]
       },
       {
-        "id": "q4a5",
+        "id": "q4a4",
         "text": "느긋한 장기전",
         "effects": [
           {
             "axis": "tempo",
-            "value": -8
+            "value": -5
           },
           {
             "axis": "interaction",
             "value": 2
+          },
+          {
+            "axis": "stability",
+            "value": 1
           }
         ]
       }
@@ -227,7 +216,7 @@
         "effects": [
           {
             "axis": "niche",
-            "value": -6
+            "value": -5
           },
           {
             "axis": "power",
@@ -241,7 +230,7 @@
         "effects": [
           {
             "axis": "niche",
-            "value": -4
+            "value": -3
           },
           {
             "axis": "power",
@@ -250,17 +239,17 @@
         ]
       },
       {
-        "id": "q5a4",
+        "id": "q5a3",
         "text": "비메타도 재미있다",
         "effects": [
           {
             "axis": "niche",
-            "value": 3
+            "value": 2
           }
         ]
       },
       {
-        "id": "q5a5",
+        "id": "q5a4",
         "text": "남들 안 쓰는 덱 연구",
         "effects": [
           {
@@ -269,7 +258,11 @@
           },
           {
             "axis": "difficulty",
-            "value": 2
+            "value": 1
+          },
+          {
+            "axis": "power",
+            "value": -1
           }
         ]
       }
@@ -285,11 +278,11 @@
         "effects": [
           {
             "axis": "interaction",
-            "value": -6
+            "value": -5
           },
           {
             "axis": "tempo",
-            "value": 2
+            "value": 1
           }
         ]
       },
@@ -299,31 +292,25 @@
         "effects": [
           {
             "axis": "interaction",
-            "value": -3
+            "value": -1
           }
         ]
       },
       {
-        "id": "q6a4",
-        "text": "적극적으로 방해한다",
-        "effects": [
-          {
-            "axis": "interaction",
-            "value": 2
-          }
-        ]
-      },
-      {
-        "id": "q6a5",
+        "id": "q6a3",
         "text": "상대 플레이 완전 봉쇄",
         "effects": [
           {
             "axis": "interaction",
-            "value": 4
+            "value": 3
           },
           {
             "axis": "tempo",
-            "value": -2
+            "value": -1
+          },
+          {
+            "axis": "stability",
+            "value": 1
           }
         ]
       }
@@ -339,11 +326,11 @@
         "effects": [
           {
             "axis": "power",
-            "value": 7
+            "value": 5
           },
           {
             "axis": "niche",
-            "value": -5
+            "value": -4
           }
         ]
       },
@@ -357,17 +344,17 @@
           },
           {
             "axis": "niche",
-            "value": -3
+            "value": -2
           }
         ]
       },
       {
-        "id": "q7a4",
+        "id": "q7a3",
         "text": "하위 티어도 괜찮다",
         "effects": [
           {
             "axis": "power",
-            "value": -4
+            "value": -2
           },
           {
             "axis": "niche",
@@ -376,16 +363,16 @@
         ]
       },
       {
-        "id": "q7a5",
+        "id": "q7a4",
         "text": "티어는 중요하지 않다",
         "effects": [
           {
             "axis": "power",
-            "value": -6
+            "value": -5
           },
           {
             "axis": "niche",
-            "value": 5
+            "value": 4
           }
         ]
       }
@@ -419,72 +406,6 @@
     ]
   },
   {
-    "id": "q9",
-    "text": "콤보 전개와 비트다운 중 어느 쪽을 선호하시나요?",
-    "answers": [
-      {
-        "id": "q9a1",
-        "text": "긴 콤보 전개",
-        "effects": [
-          {
-            "axis": "difficulty",
-            "value": 3
-          },
-          {
-            "axis": "ceiling",
-            "value": 1
-          },
-          {
-            "axis": "tempo",
-            "value": -2
-          }
-        ]
-      },
-      {
-        "id": "q9a2",
-        "text": "짧은 콤보",
-        "effects": [
-          {
-            "axis": "difficulty",
-            "value": 2
-          }
-        ]
-      },
-      {
-        "id": "q9a4",
-        "text": "단순 비트다운",
-        "effects": [
-          {
-            "axis": "difficulty",
-            "value": -3
-          },
-          {
-            "axis": "stability",
-            "value": 2
-          }
-        ]
-      },
-      {
-        "id": "q9a5",
-        "text": "콤보 싫어함",
-        "effects": [
-          {
-            "axis": "difficulty",
-            "value": -5
-          },
-          {
-            "axis": "stability",
-            "value": 4
-          },
-          {
-            "axis": "ceiling",
-            "value": -5
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "q10",
     "text": "유리한 교환각(1:1 이상)이 보일 때, 당신의 기본 선택은?",
     "answers": [
@@ -494,29 +415,11 @@
         "effects": [
           {
             "axis": "stability",
-            "value": 5
-          },
-          {
-            "axis": "interaction",
-            "value": 2
+            "value": 4
           },
           {
             "axis": "ceiling",
-            "value": -3
-          }
-        ]
-      },
-      {
-        "id": "q10a2",
-        "text": "상황이 좋으면 한 번 더 압박한다",
-        "effects": [
-          {
-            "axis": "stability",
-            "value": 1
-          },
-          {
-            "axis": "tempo",
-            "value": 2
+            "value": -2
           }
         ]
       },
@@ -529,12 +432,8 @@
             "value": 3
           },
           {
-            "axis": "tempo",
-            "value": 2
-          },
-          {
             "axis": "stability",
-            "value": -2
+            "value": -3
           }
         ]
       },
@@ -544,15 +443,15 @@
         "effects": [
           {
             "axis": "tempo",
-            "value": 4
+            "value": 2
           },
           {
             "axis": "stability",
-            "value": -4
+            "value": -3
           },
           {
-            "axis": "ceiling",
-            "value": 1
+            "axis": "interaction",
+            "value": -1
           }
         ]
       }
@@ -560,23 +459,19 @@
   },
   {
     "id": "q11",
-    "text": "상대 세트 마함이 있을 때, 당신의 사용 타이밍은?",
+    "text": "상대 필드에 세트된 마법/함정이 있을 때, 당신의 싸이크론 사용 타이밍은?",
     "answers": [
       {
         "id": "q11a1",
-        "text": "확실한 가치가 아니면 최대한 아낀다",
+        "text": "확실한 타이밍이 아니면 아낀다.",
         "effects": [
           {
             "axis": "stability",
-            "value": 3
-          },
-          {
-            "axis": "difficulty",
-            "value": 1
+            "value": 2
           },
           {
             "axis": "tempo",
-            "value": -2
+            "value": -1
           }
         ]
       },
@@ -586,47 +481,15 @@
         "effects": [
           {
             "axis": "interaction",
-            "value": 2
+            "value": 1
           },
           {
             "axis": "tempo",
             "value": 1
-          }
-        ]
-      },
-      {
-        "id": "q11a3",
-        "text": "초반부터 강하게 열어 템포를 잡는다",
-        "effects": [
-          {
-            "axis": "tempo",
-            "value": 3
-          },
-          {
-            "axis": "interaction",
-            "value": 2
           },
           {
             "axis": "stability",
-            "value": -2
-          }
-        ]
-      },
-      {
-        "id": "q11a4",
-        "text": "리스크를 감수하고 라인을 밀어붙인다",
-        "effects": [
-          {
-            "axis": "tempo",
-            "value": 4
-          },
-          {
-            "axis": "ceiling",
-            "value": 2
-          },
-          {
-            "axis": "stability",
-            "value": -3
+            "value": -1
           }
         ]
       }
@@ -638,24 +501,6 @@
     "answers": [
       {
         "id": "q12a1",
-        "text": "초공격형",
-        "effects": [
-          {
-            "axis": "tempo",
-            "value": 3
-          },
-          {
-            "axis": "ceiling",
-            "value": 1
-          },
-          {
-            "axis": "stability",
-            "value": -3
-          }
-        ]
-      },
-      {
-        "id": "q12a2",
         "text": "공격적",
         "effects": [
           {
@@ -663,40 +508,27 @@
             "value": 2
           },
           {
-            "axis": "power",
-            "value": 1
+            "axis": "stability",
+            "value": -1
           }
         ]
       },
       {
-        "id": "q12a4",
+        "id": "q12a2",
+        "text": "잘모르겠다.",
+        "effects": []
+      },
+      {
+        "id": "q12a3",
         "text": "방어적",
         "effects": [
           {
             "axis": "stability",
-            "value": 1
-          },
-          {
-            "axis": "interaction",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "id": "q12a5",
-        "text": "초방어형",
-        "effects": [
-          {
-            "axis": "stability",
-            "value": 2
-          },
-          {
-            "axis": "interaction",
             "value": 2
           },
           {
             "axis": "tempo",
-            "value": -2
+            "value": -1
           }
         ]
       }
@@ -704,22 +536,20 @@
   },
   {
     "id": "q13",
-    "text": "덱 구성은 어떤 스타일을 선호하시나요?",
+    "text": "선공/후공 성능 중 어떤 쪽을 더 중시하나요?",
     "answers": [
       {
         "id": "q13a1",
-        "text": "핵심 카드 소수 집중",
+        "text": "후공이 다소 불안정해도, 선공 파워가 높은 덱",
         "effects": [
           {
-            "axis": "stability",
+            "axis": "ceiling",
             "value": 2
-          }
-        ]
-      },
-      {
-        "id": "q13a2",
-        "text": "분산형 구성",
-        "effects": [
+          },
+          {
+            "axis": "tempo",
+            "value": 1
+          },
           {
             "axis": "stability",
             "value": -3
@@ -727,23 +557,27 @@
         ]
       },
       {
-        "id": "q13a3",
-        "text": "혼합형",
-        "effects": []
-      },
-      {
-        "id": "q13a4",
-        "text": "콤보 위주",
+        "id": "q13a2",
+        "text": "선공/후공 모두 무난한 밸런스 덱",
         "effects": [
           {
-            "axis": "difficulty",
-            "value": 2
+            "axis": "stability",
+            "value": 3
+          },
+          {
+            "axis": "interaction",
+            "value": 1
           },
           {
             "axis": "ceiling",
-            "value": 1
+            "value": -1
           }
         ]
+      },
+      {
+        "id": "q13a3",
+        "text": "잘 모르겠음",
+        "effects": []
       }
     ]
   },
@@ -753,15 +587,11 @@
     "answers": [
       {
         "id": "q14a1",
-        "text": "안전하게 리소스를 정리하고 다음 턴을 본다",
+        "text": "안전하게 다음 턴을 본다",
         "effects": [
           {
             "axis": "stability",
-            "value": 4
-          },
-          {
-            "axis": "interaction",
-            "value": 1
+            "value": 3
           },
           {
             "axis": "tempo",
@@ -775,10 +605,6 @@
         "effects": [
           {
             "axis": "interaction",
-            "value": 2
-          },
-          {
-            "axis": "tempo",
             "value": 1
           }
         ]
@@ -789,201 +615,58 @@
         "effects": [
           {
             "axis": "ceiling",
-            "value": 4
+            "value": 2
           },
           {
             "axis": "tempo",
-            "value": 2
-          },
-          {
-            "axis": "stability",
-            "value": -2
-          }
-        ]
-      },
-      {
-        "id": "q14a4",
-        "text": "실패 가능성이 커도 지금 끝내러 간다",
-        "effects": [
-          {
-            "axis": "ceiling",
-            "value": 6
-          },
-          {
-            "axis": "tempo",
-            "value": 3
-          },
-          {
-            "axis": "stability",
-            "value": -4
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "q16",
-    "text": "사이드 이후 2~3게임 운영에서 가까운 스타일은?",
-    "answers": [
-      {
-        "id": "q16a1",
-        "text": "원래 플랜을 최대한 유지한다",
-        "effects": [
-          {
-            "axis": "stability",
-            "value": 3
-          },
-          {
-            "axis": "difficulty",
-            "value": -2
-          }
-        ]
-      },
-      {
-        "id": "q16a2",
-        "text": "핵심 몇 장만 바꿔 미세 조정한다",
-        "effects": [
-          {
-            "axis": "interaction",
-            "value": 2
-          },
-          {
-            "axis": "difficulty",
-            "value": -1
-          }
-        ]
-      },
-      {
-        "id": "q16a3",
-        "text": "상대 성향에 맞춰 카드군을 적극 교체한다",
-        "effects": [
-          {
-            "axis": "interaction",
-            "value": 3
-          },
-          {
-            "axis": "difficulty",
-            "value": 2
-          }
-        ]
-      },
-      {
-        "id": "q16a4",
-        "text": "판마다 플랜을 크게 바꾸는 편이다",
-        "effects": [
-          {
-            "axis": "niche",
-            "value": 2
-          },
-          {
-            "axis": "difficulty",
-            "value": 4
-          },
-          {
-            "axis": "stability",
-            "value": -2
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "q17",
-    "text": "필드 장악력은?",
-    "answers": [
-      {
-        "id": "q17a1",
-        "text": "압도적 필드 장악",
-        "effects": [
-          {
-            "axis": "ceiling",
             "value": 1
           },
           {
-            "axis": "interaction",
-            "value": 2
-          }
-        ]
-      },
-      {
-        "id": "q17a2",
-        "text": "적당한 장악",
-        "effects": [
-          {
-            "axis": "interaction",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "id": "q17a3",
-        "text": "보통",
-        "effects": []
-      },
-      {
-        "id": "q17a4",
-        "text": "최소한의 필드",
-        "effects": [
-          {
-            "axis": "tempo",
-            "value": 2
+            "axis": "stability",
+            "value": -2
           }
         ]
       }
     ]
   },
   {
-    "id": "q18",
+    "id": "q15",
     "text": "덱 연구 성향은?",
     "answers": [
       {
-        "id": "q18a1",
+        "id": "q15a1",
         "text": "정석 플레이만",
         "effects": [
           {
             "axis": "niche",
-            "value": -5
+            "value": -4
           },
           {
             "axis": "power",
             "value": 1
+          },
+          {
+            "axis": "difficulty",
+            "value": -2
           }
         ]
       },
       {
-        "id": "q18a2",
+        "id": "q15a2",
         "text": "약간의 변형",
         "effects": []
       },
       {
-        "id": "q18a3",
+        "id": "q15a3",
         "text": "독자적 연구",
         "effects": [
           {
             "axis": "niche",
-            "value": 4
-          },
-          {
-            "axis": "difficulty",
-            "value": 2
-          }
-        ]
-      },
-      {
-        "id": "q18a4",
-        "text": "실험적 덱 구성",
-        "effects": [
-          {
-            "axis": "niche",
-            "value": 5
-          },
-          {
-            "axis": "difficulty",
             "value": 3
           },
           {
-            "axis": "power",
-            "value": -3
+            "axis": "difficulty",
+            "value": 1
           }
         ]
       }

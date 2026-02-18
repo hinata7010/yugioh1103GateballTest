@@ -20,7 +20,7 @@
 
       <section v-if="topMatch" class="mb-12">
         <div class="text-center mb-6">
-          <h2 class="text-2xl font-semibold mb-2">최상 추천 덱</h2>
+          <h2 class="text-2xl font-semibold mb-2">가장 잘 맞는 추천 덱</h2>
           <p class="text-xl text-blue-600 font-bold">매칭률 {{ topMatch.matchPercentage.toFixed(0) }}%</p>
         </div>
         <DeckCard :deck="topMatch.deck" :match-percentage="topMatch.matchPercentage" featured />
@@ -40,7 +40,12 @@
 
       <section class="mt-12">
         <Card>
-          <ShareButtons :user-scores="quizStore.userScores" :selected-tags="quizStore.selectedTags" />
+          <ShareButtons
+            :user-scores="quizStore.userScores"
+            :selected-tags="quizStore.selectedTags"
+            :top-deck-name="topMatch?.deck.name"
+            :top-deck-id="topMatch?.deck.id"
+          />
         </Card>
       </section>
     </div>

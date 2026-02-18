@@ -28,13 +28,20 @@
         </h3>
         
         <!-- 태그 -->
-        <div class="flex flex-wrap gap-2 mb-3">
+        <div class="flex flex-wrap gap-2 mb-3 min-h-[2.25rem] items-start">
           <span
-            v-for="tag in deck.tags"
+            v-for="tag in tags"
             :key="tag"
             class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm"
           >
             {{ tag }}
+          </span>
+          <span
+            v-if="tags.length === 0"
+            class="px-3 py-1 rounded-full text-sm opacity-0 select-none pointer-events-none"
+            aria-hidden="true"
+          >
+            placeholder
           </span>
         </div>
 
@@ -82,6 +89,7 @@ const props = withDefaults(defineProps<Props>(), {
 });
 
 const imageError = ref(false);
+const tags = computed(() => props.deck.tags ?? []);
 
 const deckImageUrl = computed(() => {
   if (imageError.value) {

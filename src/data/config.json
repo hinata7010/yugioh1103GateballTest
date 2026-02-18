@@ -1,12 +1,12 @@
 {
   "weights": {
-    "stability": 1.0,
-    "difficulty": 1.0,
-    "ceiling": 1.0,
-    "tempo": 1.0,
-    "niche": 1.0,
-    "interaction": 1.0,
-    "power": 1.0
+    "stability": 1,
+    "difficulty": 1,
+    "ceiling": 1,
+    "tempo": 1,
+    "niche": 1,
+    "interaction": 1,
+    "power": 1
   },
   "axisDescriptions": {
     "stability": "저점이 높고 게임이 잘 안 무너짐 (1~10)",
@@ -17,5 +17,9 @@
     "interaction": "견제, 방해, 대응 수단 (1~10)",
     "power": "순수 덱 강함 (티어 체감) (1~10)"
   },
-  "deckTags": ["싱크로", "엑시즈", "융합"]
+  "deckTags": [
+    "싱크로",
+    "엑시즈",
+    "융합"
+  ]
 }
