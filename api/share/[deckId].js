@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+﻿import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const decksPath = join(process.cwd(), 'src', 'data', 'decks.json');
@@ -13,8 +13,13 @@ function escapeHtml(value) {
 }
 
 function resolveOrigin(req) {
-  const forwardedProto = String(req.headers['x-forwarded-proto'] || 'https').split(',')[0].trim();
-  const forwardedHost = String(req.headers['x-forwarded-host'] || req.headers.host || '').split(',')[0].trim();
+  const forwardedProto = String(req.headers['x-forwarded-proto'] || 'https')
+    .split(',')[0]
+    .trim();
+  const forwardedHost = String(req.headers['x-forwarded-host'] || req.headers.host || '')
+    .split(',')[0]
+    .trim();
+
   return `${forwardedProto}://${forwardedHost}`;
 }
 
@@ -39,7 +44,7 @@ function buildHtml({ title, description, imageUrl, pageUrl, redirectUrl }) {
 </head>
 <body>
   <p>결과 페이지로 이동 중입니다...</p>
-  <a href="${redirectUrl}">이동이 되지 않으면 클릭해 주세요.</a>
+  <a href="${redirectUrl}">이동되지 않으면 여기를 눌러 주세요</a>
 </body>
 </html>
 `;
@@ -59,16 +64,18 @@ export default function handler(req, res) {
     if (score) redirectUrl.searchParams.set('s', score);
     if (tags) redirectUrl.searchParams.set('t', tags);
 
-    const title = escapeHtml(
-      `${deck?.name ?? '내 덱'} - 내 유희왕 1103 게이트볼 덱 성향 테스트 결과는?`
+    const deckName = deck?.name ?? '나의 결과';
+    const title = escapeHtml(`${deckName} - 내 유희왕 1103 게이트볼 덱 성향 테스트 결과는?`);
+    const description = escapeHtml(
+      `내 유희왕 1103 게이트볼 덱 성향 테스트 결과는 ${deckName}! 당신도 테스트하고 덱 추천 받아보세요.`
     );
-    const description = '내 유희왕 1103 게이트볼 덱 성향 테스트 결과를 확인해보세요!';
     const imageUrl = escapeHtml(new URL(deck?.image || '/favicon.jpg', origin).toString());
-    const pageUrl = escapeHtml(new URL(req.url || `/api/share/${deckId}`, origin).toString());
+    const pagePath = `/api/share/${encodeURIComponent(deckId || '')}`;
+    const pageUrl = escapeHtml(new URL(pagePath, origin).toString());
 
     const html = buildHtml({
       title,
-      description: escapeHtml(description),
+      description,
       imageUrl,
       pageUrl,
       redirectUrl: escapeHtml(redirectUrl.toString()),
@@ -80,4 +87,3 @@ export default function handler(req, res) {
     res.status(500).json({ error: 'Failed to render share page', detail: String(error) });
   }
 }
-
