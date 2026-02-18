@@ -1,6 +1,7 @@
-﻿import { readFileSync } from 'node:fs';
+﻿import { createRequire } from 'node:module';
 
-const decksPath = new URL('../../src/data/decks.json', import.meta.url);
+const require = createRequire(import.meta.url);
+const decks = require('../../src/data/decks.json');
 
 function escapeHtml(value) {
   return String(value)
@@ -51,7 +52,6 @@ function buildHtml({ title, description, imageUrl, pageUrl, redirectUrl }) {
 
 export default function handler(req, res) {
   try {
-    const decks = JSON.parse(readFileSync(decksPath, 'utf8'));
     const deckId = Array.isArray(req.query.deckId) ? req.query.deckId[0] : req.query.deckId;
     const deck = decks.find((item) => item.id === deckId);
 
