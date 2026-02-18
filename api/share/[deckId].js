@@ -1,7 +1,6 @@
 ﻿import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
 
-const decksPath = join(process.cwd(), 'src', 'data', 'decks.json');
+const decksPath = new URL('../../src/data/decks.json', import.meta.url);
 
 function escapeHtml(value) {
   return String(value)
@@ -56,6 +55,11 @@ export default function handler(req, res) {
     const deckId = Array.isArray(req.query.deckId) ? req.query.deckId[0] : req.query.deckId;
     const deck = decks.find((item) => item.id === deckId);
 
+    if (!deck) {
+      res.status(404).send('Deck not found');
+      return;
+    }
+
     const origin = resolveOrigin(req);
     const score = Array.isArray(req.query.s) ? req.query.s[0] : req.query.s;
     const tags = Array.isArray(req.query.t) ? req.query.t[0] : req.query.t;
@@ -64,13 +68,13 @@ export default function handler(req, res) {
     if (score) redirectUrl.searchParams.set('s', score);
     if (tags) redirectUrl.searchParams.set('t', tags);
 
-    const deckName = deck?.name ?? '나의 결과';
+    const deckName = deck.name;
     const title = escapeHtml(`${deckName} - 내 유희왕 1103 게이트볼 덱 성향 테스트 결과는?`);
     const description = escapeHtml(
       `내 유희왕 1103 게이트볼 덱 성향 테스트 결과는 ${deckName}! 당신도 테스트하고 덱 추천 받아보세요.`
     );
-    const imageUrl = escapeHtml(new URL(deck?.image || '/favicon.jpg', origin).toString());
-    const pagePath = `/api/share/${encodeURIComponent(deckId || '')}`;
+    const imageUrl = escapeHtml(new URL(deck.image || '/favicon.jpg', origin).toString());
+    const pagePath = `/api/share/${encodeURIComponent(deckId)}`;
     const pageUrl = escapeHtml(new URL(pagePath, origin).toString());
 
     const html = buildHtml({
