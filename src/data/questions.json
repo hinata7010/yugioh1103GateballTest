@@ -120,20 +120,6 @@
         ]
       },
       {
-        "id": "q3a3",
-        "text": "꾸준히 압박하는 스타일",
-        "effects": [
-          {
-            "axis": "ceiling",
-            "value": -2
-          },
-          {
-            "axis": "stability",
-            "value": 2
-          }
-        ]
-      },
-      {
         "id": "q3a4",
         "text": "화력보다 안정성",
         "effects": [
@@ -179,24 +165,6 @@
           {
             "axis": "tempo",
             "value": -2
-          },
-          {
-            "axis": "stability",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "id": "q4a4",
-        "text": "느긋한 장기전",
-        "effects": [
-          {
-            "axis": "tempo",
-            "value": -5
-          },
-          {
-            "axis": "interaction",
-            "value": 2
           },
           {
             "axis": "stability",
@@ -270,7 +238,7 @@
   },
   {
     "id": "q6",
-    "text": "상대방과의 상호작용(견제/방해)은 얼마나 중요한가요?",
+    "text": "상대방 플레이에 얼마나 관여하고 싶나요?",
     "answers": [
       {
         "id": "q6a1",
@@ -298,7 +266,7 @@
       },
       {
         "id": "q6a3",
-        "text": "상대 플레이 완전 봉쇄",
+        "text": "적극적인 견제",
         "effects": [
           {
             "axis": "interaction",
