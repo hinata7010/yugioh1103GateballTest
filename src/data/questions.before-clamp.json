@@ -9,7 +9,7 @@
         "effects": [
           {
             "axis": "stability",
-            "value": -3
+            "value": -5
           },
           {
             "axis": "ceiling",
@@ -37,7 +37,7 @@
         "effects": [
           {
             "axis": "stability",
-            "value": 3
+            "value": 4
           },
           {
             "axis": "tempo",
@@ -45,7 +45,7 @@
           },
           {
             "axis": "ceiling",
-            "value": -3
+            "value": -4
           }
         ]
       }
@@ -61,7 +61,7 @@
         "effects": [
           {
             "axis": "difficulty",
-            "value": -3
+            "value": -4
           },
           {
             "axis": "stability",
@@ -101,11 +101,11 @@
         "effects": [
           {
             "axis": "stability",
-            "value": 3
+            "value": 4
           },
           {
             "axis": "ceiling",
-            "value": -3
+            "value": -4
           }
         ]
       },
@@ -129,11 +129,11 @@
         "effects": [
           {
             "axis": "stability",
-            "value": -3
+            "value": -5
           },
           {
             "axis": "ceiling",
-            "value": 3
+            "value": 4
           }
         ]
       }
@@ -175,7 +175,7 @@
   },
   {
     "id": "q5",
-    "text": "메타 덱과 비주류 덱 중 어느 쪽을 선호하시나요?",
+    "text": "메타 덱과 비메타 덱 중 어느 쪽을 선호하시나요?",
     "answers": [
       {
         "id": "q5a1",
@@ -183,7 +183,7 @@
         "effects": [
           {
             "axis": "niche",
-            "value": -3
+            "value": -5
           },
           {
             "axis": "power",
@@ -207,7 +207,7 @@
       },
       {
         "id": "q5a3",
-        "text": "비주류도 재미있다",
+        "text": "비메타도 재미있다",
         "effects": [
           {
             "axis": "niche",
@@ -221,7 +221,7 @@
         "effects": [
           {
             "axis": "niche",
-            "value": 3
+            "value": 5
           },
           {
             "axis": "difficulty",
@@ -245,7 +245,7 @@
         "effects": [
           {
             "axis": "interaction",
-            "value": -3
+            "value": -5
           },
           {
             "axis": "tempo",
@@ -293,11 +293,11 @@
         "effects": [
           {
             "axis": "power",
-            "value": 3
+            "value": 5
           },
           {
             "axis": "niche",
-            "value": -3
+            "value": -4
           }
         ]
       },
@@ -335,63 +335,11 @@
         "effects": [
           {
             "axis": "power",
-            "value": -3
+            "value": -6
           },
           {
             "axis": "niche",
-            "value": 3
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "q8",
-    "text": "계획을 세울 때 나는",
-    "answers": [
-      {
-        "id": "q8a1",
-        "text": "세부 계획을 미리 정해 둔다.",
-        "effects": [
-          {
-            "axis": "stability",
-            "value": 2
-          },
-          {
-            "axis": "tempo",
-            "value": -1
-          }
-        ]
-      },
-      {
-        "id": "q8a2",
-        "text": "큰 틀만 정하고 상황에 맞춘다.",
-        "effects": [
-          {
-            "axis": "stability",
-            "value": 1
-          },
-          {
-            "axis": "tempo",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "id": "q8a3",
-        "text": "즉흥적으로 움직인다.",
-        "effects": [
-          {
-            "axis": "tempo",
-            "value": 2
-          },
-          {
-            "axis": "stability",
-            "value": -2
-          },
-          {
-            "axis": "ceiling",
-            "value": 1
+            "value": 4
           }
         ]
       }
@@ -483,7 +431,7 @@
       },
       {
         "id": "q11a2",
-        "text": "상황에 따라 다르다.",
+        "text": "??? ?? ???.",
         "effects": [
           {
             "axis": "interaction",
@@ -523,7 +471,7 @@
       },
       {
         "id": "q12a2",
-        "text": "둘 다 괜찮다.",
+        "text": "? ? ???.",
         "effects": []
       },
       {
@@ -560,7 +508,7 @@
           },
           {
             "axis": "stability",
-            "value": -3
+            "value": -5
           }
         ]
       },
@@ -584,7 +532,7 @@
       },
       {
         "id": "q13a3",
-        "text": "상황에 따라 다르다.",
+        "text": "??? ?? ???.",
         "effects": []
       }
     ]
@@ -599,7 +547,7 @@
         "effects": [
           {
             "axis": "stability",
-            "value": 3
+            "value": 4
           },
           {
             "axis": "tempo",
@@ -631,7 +579,7 @@
           },
           {
             "axis": "stability",
-            "value": -3
+            "value": -4
           }
         ]
       }
@@ -647,7 +595,7 @@
         "effects": [
           {
             "axis": "niche",
-            "value": -3
+            "value": -4
           },
           {
             "axis": "power",
@@ -674,54 +622,6 @@
           },
           {
             "axis": "difficulty",
-            "value": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "q16",
-    "text": "새로운 게임을 시작할 때 나는",
-    "answers": [
-      {
-        "id": "q16a1",
-        "text": "공략을 먼저 보고 효율적인 선택을 한다.",
-        "effects": [
-          {
-            "axis": "power",
-            "value": 2
-          },
-          {
-            "axis": "difficulty",
-            "value": -1
-          }
-        ]
-      },
-      {
-        "id": "q16a2",
-        "text": "일단 직접 부딪혀보며 익힌다.",
-        "effects": [
-          {
-            "axis": "difficulty",
-            "value": 2
-          }
-        ]
-      },
-      {
-        "id": "q16a3",
-        "text": "남들이 잘 안 하는 방식으로 해본다.",
-        "effects": [
-          {
-            "axis": "difficulty",
-            "value": 1
-          },
-          {
-            "axis": "power",
-            "value": -1
-          },
-          {
-            "axis": "niche",
             "value": 1
           }
         ]
